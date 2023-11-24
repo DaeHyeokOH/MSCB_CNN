@@ -6,6 +6,7 @@ import os
 from scipy.signal import butter, lfilter, spectrogram
 import matplotlib.pyplot as plt
 import time
+from PIL import Image
 import sys
 #본 파일은 .dat파일을 읽고 이를 par#, video#, session#, channel#, features, vlence, arousal이 column인 DF를 만들도록 한다.
 #fix participant
